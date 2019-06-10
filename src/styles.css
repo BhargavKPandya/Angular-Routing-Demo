@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+nav a {
+    padding: 1rem;
+    background-color: darkgray;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+nav .active {
+    background-color: aqua;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.items {
+    list-style-type: none;
+}
+
+.badge {
+    background-color: lightslategrey;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.items li.selected {
+    font-style: italic;
+}
+
+body {
+    margin: 1rem;
+}
